@@ -101,6 +101,7 @@ Let's build the example and run it:
 
   mkdir build && cd build
   cmake ..
+  make
   ./hi_eip
 
 
