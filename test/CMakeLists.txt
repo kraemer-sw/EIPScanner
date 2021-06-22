@@ -29,6 +29,8 @@ add_executable(test_eipscanner
         vendor/ra/powerFlex525/TestDPIFaultObject.cpp
         vendor/ra/powerFlex525/TestDPIFaultParameter.cpp
 
+        vendor/wago/M750-363/TestDiscreteInputPointObject.cpp
+
         TestDiscoveryManager.cpp
         TestIdentityObject.cpp
         TestMessageRouter.cpp

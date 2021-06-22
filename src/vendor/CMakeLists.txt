@@ -1,5 +1,6 @@
 include_directories(ra/powerFlex525)
 include_directories(yaskawa/mp3300iec)
+include_directories(wago/M750-363)
 
 set( VENDOR_FILES
         # ra
@@ -12,6 +13,13 @@ set( VENDOR_FILES
         vendor/yaskawa/mp3300iec/Yaskawa_EPath.cpp
         vendor/yaskawa/mp3300iec/Yaskawa_MessageRouter.cpp
         vendor/yaskawa/mp3300iec/Yaskawa_MessageRouterRequest.cpp
+
+        # wago
+        vendor/wago/M750-363/AnalogInputPointObject.cpp
+        vendor/wago/M750-363/DiscreteInputPointObject.cpp
+        vendor/wago/M750-363/DiscreteOutputPointObject.cpp
+        vendor/wago/M750-363/ModuleConfigurationObject.cpp
+        vendor/wago/M750-363/AssemblyObject.cpp
 
         PARENT_SCOPE
 )
